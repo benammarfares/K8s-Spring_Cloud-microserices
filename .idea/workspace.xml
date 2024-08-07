@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="16982e12-acfc-4067-a614-ebfa3248c12e" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Dockerfile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2jbThsEIbhyGJEkBfl4QgABEndb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/MSI/Desktop/K8s-Spring_Cloud-microserices",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.48683015",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "1eb1f08b4141ce29c105f4d1a0b26fe9",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\MSI\Desktop\Devops-Microservice\configServer\src\main\resources\configurations" />
+      <recent name="C:\Users\MSI\Desktop\Devops-Microservice\configServer\src\main\resources" />
+      <recent name="C:\Users\MSI\Desktop\Devops-Microservice\configServer" />
+      <recent name="C:\Users\MSI\Desktop\Devops-Microservice\configServer\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="HTTP Request.GettingPolicyFromAssurance | Find Policy By Assurance">
+    <configuration name="ApiGatwayTest | Create new AssurancePolicy" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/apiTesting/ApiGatwayTest.http" index="2" requestIdentifier="Create new AssurancePolicy" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="ApiGatwayTest | Find ALl Assurance" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/apiTesting/ApiGatwayTest.http" index="3" requestIdentifier="Find ALl Assurance" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="AssurancePolicy | Create new AssurancePolicy" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/apiTesting/AssurancePolicy.http" index="2" requestIdentifier="Create new AssurancePolicy" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="AssurancePolicy | Create new AssurancePolicy#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/apiTesting/AssurancePolicy.http" index="3" requestIdentifier="Create new AssurancePolicy#2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="GettingPolicyFromAssurance | Find Policy By Assurance" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/apiTesting/GettingPolicyFromAssurance.http" requestIdentifier="Find Policy By Assurance" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="AssuranceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="assurance" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fares.assurance.AssuranceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssurancePolicyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="assurancePolicy" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fares.assurancePolicy.AssurancePolicyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="configServer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fares.configServer.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscoveryServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="discorveryServer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fares.discorveryServer.DiscoveryServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="HTTP Request.ApiGatwayTest | Create new AssurancePolicy" />
+      <item itemvalue="HTTP Request.ApiGatwayTest | Find ALl Assurance" />
+      <item itemvalue="HTTP Request.AssurancePolicy | Create new AssurancePolicy#2" />
+      <item itemvalue="HTTP Request.GettingPolicyFromAssurance | Find Policy By Assurance" />
+      <item itemvalue="HTTP Request.AssurancePolicy | Create new AssurancePolicy" />
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
+      <item itemvalue="Spring Boot.AssuranceApplication" />
+      <item itemvalue="Spring Boot.AssurancePolicyApplication" />
+      <item itemvalue="Spring Boot.DiscoveryServerApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.GettingPolicyFromAssurance | Find Policy By Assurance" />
+        <item itemvalue="HTTP Request.AssurancePolicy | Create new AssurancePolicy#2" />
+        <item itemvalue="HTTP Request.AssurancePolicy | Create new AssurancePolicy" />
+        <item itemvalue="HTTP Request.ApiGatwayTest | Find ALl Assurance" />
+        <item itemvalue="HTTP Request.ApiGatwayTest | Create new AssurancePolicy" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="16982e12-acfc-4067-a614-ebfa3248c12e" name="Changes" comment="" />
+      <created>1721654898924</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721654898924</updated>
+      <workItem from="1721654900005" duration="30000" />
+      <workItem from="1721670103211" duration="1716000" />
+      <workItem from="1721671933435" duration="682000" />
+      <workItem from="1721676142583" duration="3475000" />
+      <workItem from="1721722621853" duration="13815000" />
+      <workItem from="1721804843167" duration="11343000" />
+      <workItem from="1721816484454" duration="22000" />
+      <workItem from="1721817983355" duration="5679000" />
+      <workItem from="1721981969002" duration="45000" />
+      <workItem from="1721982027008" duration="9027000" />
+      <workItem from="1722100742121" duration="11275000" />
+      <workItem from="1722115724105" duration="1850000" />
+      <workItem from="1722163159135" duration="2035000" />
+      <workItem from="1722247602590" duration="83000" />
+      <workItem from="1722247701685" duration="4423000" />
+      <workItem from="1722256369908" duration="4556000" />
+      <workItem from="1722265787031" duration="5311000" />
+      <workItem from="1722271473048" duration="21506000" />
+      <workItem from="1722335710575" duration="362000" />
+      <workItem from="1722336204367" duration="139000" />
+      <workItem from="1722336416898" duration="775000" />
+      <workItem from="1722337212137" duration="137000" />
+      <workItem from="1722337423883" duration="10517000" />
+      <workItem from="1722410892805" duration="1000" />
+      <workItem from="1722410962380" duration="370000" />
+      <workItem from="1722411345659" duration="12320000" />
+      <workItem from="1722428633015" duration="1254000" />
+      <workItem from="1722453861110" duration="637000" />
+      <workItem from="1722516490051" duration="12412000" />
+      <workItem from="1722618948977" duration="880000" />
+      <workItem from="1723037162908" duration="3176000" />
+      <workItem from="1723040392095" duration="62000" />
+      <workItem from="1723040882341" duration="1621000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
