@@ -9,9 +9,12 @@ pipeline {
     stages {
         stage('Build Config Server') {
             steps {
+                checkout scm
                 script {
+                    sh "pwd"
+                    sh "ls -la"
                     dir("configServer") {
-                        sh 'mvn clean package -DskipTests'
+                      sh 'mvn clean package -DskipTests'
                     }
                 }
             }
