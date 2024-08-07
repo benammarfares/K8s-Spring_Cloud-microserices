@@ -36,9 +36,6 @@ pipeline {
                script {
                   dir('discorveryServer') {
                     sh "mvn compiler:compile"
-                    sh "mvn clean package -DskipTests"
-                    def pom = readMavenPom file:'pom.xml'
-                    env.VERSION = pom.version
                   }
                }
             }
