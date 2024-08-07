@@ -28,11 +28,11 @@ pipeline {
                 }
               steps {
                 script {
-                  def service = "assurance"
+                  def service = "configserver"
                   def dockerFile = """
         FROM openjdk:17
-        COPY /assurance/target/assurance-${env.VERSION}.jar assurance-${env.VERSION}.jar
-        ENTRYPOINT ["java", "-jar", "assurance-${env.VERSION}.jar"]
+        COPY /configServer/target/configServer-${env.VERSION}.jar configServer-${env.VERSION}.jar
+        ENTRYPOINT ["java", "-jar", "configServer-${env.VERSION}.jar"]
         """
                   writeFile file: 'Dockerfile', text: dockerFile
 
