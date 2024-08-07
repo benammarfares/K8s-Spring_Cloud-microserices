@@ -4,9 +4,7 @@ pipeline {
     }
     agent none
     stages {
-
-
-        stage('Build Config Server') {
+        stage('Build configServer') {
             agent {
                 docker {
                     image 'maven'
@@ -14,34 +12,20 @@ pipeline {
                 }
             }
             steps {
-               script {
-                  dir('configServer') {
-                    sh "mvn clean package -DskipTests"
-                    def pom = readMavenPom file:'pom.xml'
-                    env.VERSION = pom.version
-                  }
-               }
-            }
-        }
+                script {
+                    dir('configServer') {
+                        sh "pwd"
+                        sh "find . -name Dockerfile"
+                        sh "ls -l"
+                        sh "mvn clean install -DskipTests"
+                        def pom = readMavenPom file:'pom.xml'
+                        print pom.version
+                        env.VERSION = pom.version
+                        print env.VERSION
 
-
-        stage('Build Discovery Server') {
-            agent {
-                docker {
-                    image 'maven'
-                    args '-u root -v $HOME/.m2:/root/.m2'
+                    }
                 }
             }
-            steps {
-               script {
-                  dir('discorveryServer') {
-                    sh "mvn compiler:compile"
-                  }
-               }
-            }
         }
-
-
-
     }
 }
