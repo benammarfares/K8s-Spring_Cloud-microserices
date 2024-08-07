@@ -1,0 +1,11 @@
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    serviceUrl:
+      defaultZone: ${DISCOVERY_SERVICE_URL:http://config-server:8888/eureka}
+server:
+  port: 8761
+

@@ -1,0 +1,29 @@
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: ${DISCOVERY_SERVICE_URL:http://discovery-server:8761/eureka}
+server:
+  port: 8222
+spring:
+  application:
+    name: gateway
+  cloud:
+    gateway:
+      routes:
+        - id: assurance
+          predicates:
+            - Path=/api/v1/assurance/**
+          uri: ${ASSURANCE_SERVICE_URI:http://assurance-service:8070}
+        - id: assurancePolicy
+          predicates:
+            - Path=/api/v1/assurancePolicy/**
+          uri: ${ASSURANCE_POLICY_SERVICE_URI:http://assurance-policy-service:8060}
+management:
+  tracing:
+    sampling:
+      probability: 1.0
+  zipkin:
+    tracing:
+      endpoint: ${ZIPKIN_URL:http://zipkin:9411/api/v2/spans}
