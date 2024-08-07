@@ -16,17 +16,5 @@ pipeline {
                 }
             }
         }
-
-        stage('Build Discovery Server') {
-            steps {
-               script {
-                  dir("discorveryServer") {
-                    sh 'mvn clean package -DskipTests'
-                    def pom = readMavenPom file:'pom.xml'
-                    env.VERSION = pom.version
-                  }
-               }
-            }
-        }
     }
 }
